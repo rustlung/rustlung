@@ -46,13 +46,6 @@ CLI-инструмент для:
 
 ---
 
-### 🔹 Tinify Desktop Tool
-Desktop-приложение для пакетного сжатия изображений через TinyPNG API.
-
-👉 https://github.com/rustlung/tinify
-
----
-
 ## 🧠 Подход к разработке
 
 - Структурированная архитектура
