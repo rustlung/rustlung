@@ -20,14 +20,17 @@
 
 ### 🔹 AI Job Automation
 
-Система автоматизации поиска и первичного анализа вакансий.
+Self-hosted система автоматизации и управления поиском работы.
 
-- n8n как оркестратор workflow
-- Python-компоненты для обработки данных
-- сбор, фильтрация и AI-анализ вакансий
-- интеграции с внешними сервисами
-- логирование и обработка ошибок
-- раздельное выполнение компонентов в целевых окружениях
+- сбор, фильтрация и локальный AI-анализ вакансий
+- hybrid scoring: Python rules + semantic assessment через Qwen3 / Ollama
+- logical grouping дублей и приоритизация P1 / P2 / P3 / ALT
+- React Web UI для triage, Applications и статистики
+- Orchestrator DB как source of truth
+- DB-first синхронизация с Google Sheets CRM
+- n8n для orchestration и внешних интеграций
+- ручное добавление вакансий и отслеживание откликов
+- Gmail-дайджест, retry-механики и обработка частичных ошибок
 
 👉 https://github.com/rustlung/ai-job-automation
 
